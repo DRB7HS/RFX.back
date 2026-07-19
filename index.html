@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RFX | انتظر شهادة جديدة</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#000;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    text-align:center;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.main{
+    font-size:38px;
+    font-weight:bold;
+}
+
+.dots span{
+    animation:blink 1.4s infinite;
+}
+
+.dots span:nth-child(2){
+    animation-delay:.2s;
+}
+
+.dots span:nth-child(3){
+    animation-delay:.4s;
+}
+
+@keyframes blink{
+    0%,20%{
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+}
+
+.back{
+    font-size:20px;
+}
+
+.back a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.back a:hover{
+    text-decoration:underline;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="main">
+انتظر شهادة جديدة<span class="dots"><span>.</span><span>.</span><span>.</span></span>
+</div>
+
+<div class="back">
+ارجع —&gt;
+<a href="https://drb7hs.github.io/.RFX./">
+https://drb7hs.github.io/.RFX./
+</a>
+</div>
+
+</div>
+
+</body>
+</html>
